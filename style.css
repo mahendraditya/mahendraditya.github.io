@@ -46,3 +46,54 @@ h1 {
   color: #fff;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
+
+.book {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.book:last-child {
+  border-bottom: none;
+}
+
+.book-cover {
+  float: left;
+  width: 140px;
+  margin: 0 1.5rem 1rem 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-author {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.book-links a {
+  color: #222;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.book-thumb {
+  width: 36px;
+  border-radius: 3px;
+}
+
+.photo-credit {
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: -0.5rem;
+}
